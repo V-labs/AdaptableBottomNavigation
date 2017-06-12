@@ -38,6 +38,24 @@ In the library you'll notice the ViewSwapper component. This is similar to the V
 
 - The ViewSwapper *doesn't* allow swiping between views - this allows us to adhere to the guidelines for not allowing the Bottom Navigation to be interacted with in this way
 
+# How to get it?
+
+This library is not available in maven repository yet. So instead, you have to get it from jitpack.
+```
+https://jitpack.io/v/V-labs/AdaptableBottomNavigation.svg?style=flat-square
+```
+
+```gradle
+repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+        maven { url "https://maven.google.com" } // for Support library >= 25.4.0
+}
+dependencies {
+         compile "com.github.V-labs:AdaptableBottomNavigation:$latest_version"
+}
+```
+
 # How to use
 
 In order to use this ViewSwapper component you need to use our SimpleBottomNavigationView - this is simply an extension of the support library component with the added functionality of ViewSwapper attachment and elevation. This will look like so in your layout file:
