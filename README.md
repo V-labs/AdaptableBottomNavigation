@@ -41,9 +41,8 @@ In the library you'll notice the ViewSwapper component. This is similar to the V
 # How to get it?
 
 This library is not available in maven repository yet. So instead, you have to get it from jitpack.
-```
-https://jitpack.io/v/V-labs/AdaptableBottomNavigation.svg?style=flat-square
-```
+
+[![Release](https://jitpack.io/v/V-labs/AdaptableBottomNavigation.svg?style=flat-square)](https://jitpack.io/#V-labs/AdaptableBottomNavigation)
 
 ```gradle
 repositories {
